@@ -1,0 +1,12 @@
+.a1 { text-shadow: 1px 1px 3px blueviolet; }
+
+
+.큰틀 {
+    background-color: antiquewhite;
+    border: 2px solid rgb(192, 216, 107);(224, 201, 67);
+}
+
+.리스트 {
+    a:visited {color:brown}
+    
+}
