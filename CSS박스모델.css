@@ -1,6 +1,6 @@
 .text-size {font-size: 400%}
 
-.text-em {font-size: 4em;}
+.text-em {font-size: 3em;}
 
 .text-in-em{font-size: 2em}
 
@@ -91,4 +91,11 @@
     height:30px;
     padding: 2px;
     border: solid 1px black
+}
+
+.outline{
+    outline-style: solid;
+    outline-width: 3px;
+    outline-color: thistle;
+
 }

@@ -1,0 +1,27 @@
+a {
+    text-decoration-line: none;
+    width: 100px;
+    border-radius: 20px;
+    background-color: orange;
+    padding: 10px 20px;  
+}
+
+a:hover {
+    text-decoration-line: none;
+    background-color: red;
+}
+
+
+
+.link-blog {
+    text-decoration: none;
+    color:black;
+    padding: 5px
+
+}
+.link-blog:hover{
+    color:green;
+    font-weight:bold;
+    border-bottom:solid green 3px;
+}
+

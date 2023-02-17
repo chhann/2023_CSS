@@ -1,0 +1,22 @@
+
+.A {
+    width: 600px;
+    background-color: rgb(241, 133, 70);
+    padding: 20px 0;
+    text-align: center;
+    
+}
+
+.B{
+    width: 550px;
+    border : 2px dashed black;
+    border-radius: 10px 60px;
+    padding: 10px 20px
+    
+}
+
+.B p{
+    background-color : beige;
+    padding: 10px 10px
+
+}

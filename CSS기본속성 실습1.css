@@ -24,11 +24,13 @@
 }
 
 .리스트 {
-    font-family: 궁서체;    
+    color: #ff0000;
+    font-family: 궁서체;
+    text-decoration: none;
+    text-decoration-line: underline;
+    text-decoration-color: blue;
+    text-decoration-style: wavy;
+    text-decoration-thickness: 3px;  
 }
 
-.리스트 a {
-    text-decoration-style: wavy;
-    text-decoration-thickness: 1px;
-    text-decoration-color: rgb(53, 221, 123);
-}
+
