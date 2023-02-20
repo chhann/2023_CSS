@@ -1,0 +1,98 @@
+.float-left {
+    float: left;
+}
+
+.float-clear {
+    clear: both;
+}
+
+.header {    
+    background-color: coral;
+    padding: 10px;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.nav {    
+    background-color: yellowgreen;
+    text-align: center;
+    margin: 5px 0;
+}
+
+.main {    
+    background-color: bisque;
+    height: 200px;
+    padding: 10px;
+    /* float를 사용하지않은 곳에서는 scroll이 생긴다 */
+    overflow: auto;
+}
+
+.section1, .section2 {
+    background-color: rgb(43, 226, 89);
+    height:100px
+} 
+
+.section1 {
+    float: left;
+    width: 100px
+}
+
+.section2 {
+    margin-left: 110px;
+}
+
+
+
+
+.header-border {
+    border: 1px solid blueviolet;
+    padding: 20px;
+    text-align: center;
+    font-size: 2rem;
+    width: 910px;
+}
+
+.nav-border {
+    border: 1px solid red;
+    float: left;
+    width: 200px;
+    height: 600px
+}
+.nav영역{
+    text-align: center;
+}
+
+.section-border {
+    border: 1px solid blue;
+    margin-left: 200px;
+    width: 750px;
+    height: 600px;
+}
+.section영역 {
+    text-align: center;
+}
+
+.footer-border {
+    border: 1px solid rgb(149, 221, 40);
+    clear:both;
+    width: 950px;
+}
+.footer영역 {
+    text-align: center;
+}
+
+.float-right {
+    float: right;
+}
+
+
+.aling-margin {
+    width: 150px;
+    margin: 0 auto;
+}
+
+.aling-position {
+    position: relative;
+    left: 40%;
+}
+
