@@ -1,0 +1,110 @@
+@import url(./CSS기본속성.css);
+@import url(https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500&display=swap);
+
+@font-face {
+    font-family: 'PyeongChangPeace-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-02@1.0/PyeongChangPeace-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+input[type="button"]{
+    cursor: pointer;
+    background-image: url(./img/./hi.jpg);
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 30px;
+}
+
+.font{
+    font-family: PyeongChangPeace-Bold ;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.gradient {
+    height:50px;
+    background: -wevkit-linear-gradient(right, green, yellow, #fff);
+    ;
+}
+
+body{
+    background-color:
+    -webkit-linear-gradient(270 deg, #0000009a)
+    url ()
+}
+
+.gradient-circle{
+    width:150px;
+    height:150px;
+    background:
+    -webkit-linear-gradient(red, white)
+}
+
+.gradient-circle2{
+    width:150px;
+    height:150px;
+    background:
+    -webkit-linear-gradient(closest-side, white green blue indigo yellow)
+}
+
+.box-shadow{
+    width:150px;
+    height:150px;
+    background-color: yellow;
+    box-shadow: -3px 3px 2px black;
+}
+
+.background{
+    background-image: url(./img/colored-pencils.png),url(./img/hi.jpg);
+    width: 600px;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.background2{
+    width: 600px;
+    height: 200px;
+    border: #fff 2px solid;
+    padding: 30px;
+    background-image: url(./img/colored-pencils.png);
+    background-origin: content-box;
+    background-clip: content-box;
+}
+
+.background3{
+    background-image: url(./img/colored-pencils.png);
+    font-size: 2rem;
+    font-weight: bold;
+    -webkit-backdrop-clip: text;
+    color: transparent;
+}
+
+.border-image {
+
+    -webkit-brder-image: url(./img/border.png) 30;
+
+}
+
+.text{
+    background-color: yellowgreen;
+    height:70px;
+    word-break: keep-all;
+    /* 각콘텐츠의 값이 넘쳤을때 어떻게 보일지 */
+    overflow: hidden;
+    /* 글자가 자동줄 바꿈이 있는지 확인 */
+    white-space: pre-wrap;
+    /* 글자가 그 크기를 넘어갔을때 모습 정함 */
+    text-overflow: ellipsis;
+}
+
+.text-kr{
+    background-color: aquamarine;
+    width: 200px;
+    height: 20px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}

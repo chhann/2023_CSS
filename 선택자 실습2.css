@@ -1,0 +1,8 @@
+.알림>p::after{
+    content: "N";
+    color: white;
+    background-color: orange;
+    display: inline-block;
+    border-radius: 100%;
+    padding: 2px 6px;
+}
