@@ -31,29 +31,28 @@ input[type="button"]{
 
 body{
     background-color:
-    -webkit-linear-gradient(270 deg, #0000009a)
-    url ()
+    -webkit-linear-gradient(90deg, #00000000,#ffffff00)
 }
 
 .gradient-circle{
     width:150px;
     height:150px;
     background:
-    -webkit-linear-gradient(red, white)
+    -webkit-radial-gradient(red 30%, rgba(225, 225, 225, 0)50%)
 }
 
 .gradient-circle2{
     width:150px;
     height:150px;
     background:
-    -webkit-linear-gradient(closest-side, white green blue indigo yellow)
+    -webkit-radial-gradient(closest-side, red, orange, yellow, green, blue, indigo, purple)
 }
 
 .box-shadow{
     width:150px;
     height:150px;
     background-color: yellow;
-    box-shadow: -3px 3px 2px black;
+    box-shadow: -3px 3px 5px black;
 }
 
 .background{
@@ -67,7 +66,7 @@ body{
 .background2{
     width: 600px;
     height: 200px;
-    border: #fff 2px solid;
+    border: #fff 10px solid;
     padding: 30px;
     background-image: url(./img/colored-pencils.png);
     background-origin: content-box;

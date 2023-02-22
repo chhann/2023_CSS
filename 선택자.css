@@ -35,7 +35,7 @@
 
 
 .state>input:checked+span {
-    color: gray;
+    color: rgb(228, 21, 21);
 
 }
 .state>input:disabled+span {
