@@ -1,0 +1,76 @@
+body{
+    margin: 0; padding: 0;
+}
+
+.wrap{
+    width: 1000px;
+    background-color: rgba(238, 147, 44, 0.541);
+    margin: auto;
+    font-size: 2rem;
+    text-align: center;
+}
+
+/* header */
+.header{
+    width: 1000px;
+    height: 100px;
+    background-color: rgb(227, 236, 176);
+    line-height: 100px;
+}
+/* nav */
+.nav{
+    height: 100px;
+    /* 태그를 넣어서 정렬할떄 - 패딩사용 */
+    /* nav의 크기가 지정되어있을때 계산편의를 위해서 border-bos로 변경 */
+    box-sizing: border-box;
+
+    /* 안에 들어간 태그들을 flex라면 사용할 필요 없다 */
+    padding: 20px 0; 
+    background-color: rgba(199, 167, 78, 0.856)
+}
+
+/* float */
+.main-f {
+    overflow: auto;
+}
+.main-f>.aside-f{
+    float: left;
+    width: 300px; height: 500px;
+    background-color: orange;
+}
+
+.main-f>.content-f{
+    float: left;
+    width: 700px; height: 250px;
+    background-color: orangered;
+}
+
+.main-f>.content2-f{
+    background-color: brown;
+    height: 500px;
+}
+
+
+/* grid */
+.main-g{
+    clear: both;
+    display: grid;
+    grid-template-columns: 300px 700px;
+    height: 500px;
+}
+
+.main-g>.aside-g{
+    background-color: rgba(243, 187, 82, 0.705);
+}
+
+
+
+
+
+
+
+.footer-f{
+    height: 100px;
+    line-height: 100px;
+    background-color: blanchedalmond;
+}

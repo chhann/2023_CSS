@@ -1,0 +1,63 @@
+body{
+    margin: 0; padding: 0;
+}
+
+.wrap{
+    width: 1000px;
+    background-color: blue;
+    margin: auto;
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+}
+
+/* header */
+.header{
+    width: 1000px;
+    height: 100px;
+    background-color: rgba(162, 147, 226, 0.425);
+    font-size: 2rem;
+    /* 텍스트 줄 간격 조정해서 글자 위치 수정 */
+    line-height: 100px;
+}
+/* nav */
+.nav{
+    height: 100px;
+    /* 태그를 넣어서 정렬할떄 - 패딩사용 */
+    /* nav의 크기가 지정되어있을때 계산편의를 위해서 border-bos로 변경 */
+    box-sizing: border-box;
+
+    /* 안에 들어간 태그들을 flex라면 사용할 필요 없다 */
+    line-height: 100px;
+    background-color: rgb(61, 165, 226)
+}
+
+
+/* main */
+.main{
+    overflow: auto;
+}
+
+.main>.aside-left{
+    float: left;
+    height: 500px; width: 200px;
+    background-color: rgb(48, 127, 247);
+}
+
+.main>.section{
+    margin-left: 200px; height: 500px;
+    background-color: bisque;
+}
+
+.main>.aside-right{
+    float: right;
+    height: 500px; width: 200px; 
+    background-color: aquamarine;
+}
+
+
+/* footer */
+.footer{
+    height: 100px;
+    line-height: 100px;
+}
